@@ -352,13 +352,18 @@ template {
    ========================================================================== */
 
 /**
-* Prevent backgrounds from repeating by default
+ * Prevent backgrounds from repeating by default
  */
 
 * {
     background-repeat: no-repeat;
 }
 
+/**
+ * Make all elements include padding and borders in their width, because that makes widths and
+ * heights easier to reason about.
+ * about.
+ */
 *,
 *::before,
 *::after {
