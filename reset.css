@@ -362,7 +362,6 @@ template {
 /**
  * Make all elements include padding and borders in their width, because that makes widths and
  * heights easier to reason about.
- * about.
  */
 *,
 *::before,
